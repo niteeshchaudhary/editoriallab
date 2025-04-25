@@ -53,7 +53,7 @@ export default function App() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer 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`
+          'Authorization': `Bearer {GROQ_API}`
         },
         body: JSON.stringify({
           model: 'llama3-70b-8192',
